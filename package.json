@@ -25,7 +25,7 @@
 		"lint:fix": "eslint --fix .",
 		"pretty:check": "prettier --check .",
 		"pretty:fix": "prettier --write .",
-		"format": "npm run eslint --fix . && npm run pretty:fix",
+		"format": "npm run lint && npm run pretty:fix",
 		"docs": "open-cli https://github.com/mister-fix/stephenwm-com#readme"
 	},
 	"dependencies": {
@@ -39,7 +39,6 @@
 		"@commitlint/config-conventional": "^19.8.1",
 		"@commitlint/format": "^19.8.1",
 		"@eslint/eslintrc": "^3",
-		"@ianvs/prettier-plugin-sort-imports": "^4.4.2",
 		"@tailwindcss/postcss": "^4",
 		"@types/node": "^20",
 		"@types/react": "^19",

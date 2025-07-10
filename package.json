@@ -1,0 +1,65 @@
+{
+	"name": "stephenwm-com",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Personal website and portfolio",
+	"author": {
+		"name": "mister-fix",
+		"url": "https://github.com/mister-fix"
+	},
+	"license": "MIT",
+	"homepage": "https://mister-fix.github.io",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mister-fix/stephenwm-com.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mister-fix/stephenwm-com/issues"
+	},
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"prepare": "husky",
+		"lint:fix": "eslint --fix .",
+		"pretty:check": "prettier --check .",
+		"pretty:fix": "prettier --write .",
+		"format": "npm run eslint --fix . && npm run pretty:fix",
+		"docs": "open-cli https://github.com/mister-fix/stephenwm-com#readme"
+	},
+	"dependencies": {
+		"lucide-react": "^0.525.0",
+		"next": "15.3.5",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-conventional": "^19.8.1",
+		"@commitlint/format": "^19.8.1",
+		"@eslint/eslintrc": "^3",
+		"@ianvs/prettier-plugin-sort-imports": "^4.4.2",
+		"@tailwindcss/postcss": "^4",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9",
+		"eslint-config-next": "15.3.5",
+		"eslint-config-prettier": "^10.1.5",
+		"eslint-plugin-prettier": "^5.5.1",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.1.2",
+		"open-cli": "^8.0.0",
+		"prettier": "^3.6.2",
+		"pretty-quick": "^4.2.2",
+		"tailwindcss": "^4",
+		"typescript": "^5"
+	},
+	"contributors": [
+		{
+			"name": "mister-fix",
+			"url": "https://github.com/mister-fix"
+		}
+	]
+}

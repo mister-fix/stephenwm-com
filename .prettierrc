@@ -16,19 +16,6 @@
   "proseWrap": "preserve",
   "embeddedLanguageFormatting": "auto",
   "singleAttributePerLine": false,
-  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
-  "importOrder": [
-    "<BUILTIN_MODULES>",
-    "<TYPES>^(node:)",
-    "<TYPES>",
-    "<TYPES>^[.]",
-    "<THIRD_PARTY_MODULES>",
-    "^@.*$",
-    "^@src/.*$",
-    "^[./].*$"
-  ],
-  "importOrderParserPlugins": ["typescript"],
-  "importOrderTypeScriptVersion": "5.0.0",
   "overrides": [
     { "files": "*.{cmp,page}", "options": { "parser": "html" } },
     {

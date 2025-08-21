@@ -74,8 +74,16 @@ export const ResumeCard = ({
 						</div>
 					</div>
 				</AccordionTrigger>
-				<AccordionContent className="flex flex-col gap-4 text-balance">
-					<p>{description}</p>
+				<AccordionContent className="flex flex-col gap-4">
+					<ul className="!list-disc space-x-2">
+						{description && description?.length > 0 ?
+							description?.map((desc, index) => (
+								<li key={index} className=" w-full">
+									&middot; {desc}
+								</li>
+							))
+						:	null}
+					</ul>
 				</AccordionContent>
 			</AccordionItem>
 		</Accordion>

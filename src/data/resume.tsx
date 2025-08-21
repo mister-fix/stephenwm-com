@@ -95,7 +95,8 @@ export const DATA = {
 			start: 'Oct 2023',
 			end: 'Mar 2024',
 			description: [
-				'Collaborated with a small team to support Readeezy Literacy, a nonprofit focused on reading accessibility. - Worked on a large legacy PHP codebase to reimplement and fix interactive reading and learning features. - Leveraged JavaScript, jQuery, Sass, and PHP to enhance frontend behavior and improve accessibility and user experience for readers with learning differences.',
+				'Collaborated with a small team to support Readeezy Literacy, a nonprofit focused on reading accessibility. Worked on a large legacy PHP codebase to reimplement and fix interactive reading and learning features.',
+				'Leveraged JavaScript, jQuery, Sass, and PHP to enhance frontend behavior and improve accessibility and user experience for readers with learning differences.',
 			],
 		},
 		{
@@ -107,8 +108,11 @@ export const DATA = {
 			logoUrl: '/companies/wahoo.png',
 			start: 'Jan 2021',
 			end: 'Apr 2021',
-			description:
-				'Designed landing pages using Figma, ensuring user-friendly interfaces and visual appeal. Created business card designs using Adobe Illustrator and Photoshop, delivering high-quality print-ready files. Collaborated with owner to understand project requirements, ensuring cohesive and effective design solutions. Managed multiple projects simultaneously, demonstrating strong time management and organizational skills. Conducted research to stay updated on the latest design trends and tools, continuously improving design skills and techniques.',
+			description: [
+				'Designed landing pages using Figma, ensuring user-friendly interfaces and visual appeal. Created business card designs using Adobe Illustrator and Photoshop, delivering high-quality print-ready files.',
+				'Collaborated with owner to understand project requirements, ensuring cohesive and effective design solutions. Managed multiple projects simultaneously, demonstrating strong time management and organizational skills.',
+				'Conducted research to stay updated on the latest design trends and tools, continuously improving design skills and techniques.',
+			],
 		},
 		{
 			company: 'Programming Tutor',
@@ -119,8 +123,10 @@ export const DATA = {
 			logoUrl: '/companies/cunybkc.png',
 			start: 'Jan 2020',
 			end: 'Apr 2020',
-			description:
-				'Tutored students in object-oriented programming, data structures, and algorithms. Helped students debug code, complete assignments, and prepare for exams.',
+			description: [
+				'Tutored students in object-oriented programming, data structures, and algorithms.',
+				'Helped students debug code, complete assignments, and prepare for exams.',
+			],
 		},
 		{
 			company: 'UpWork',
@@ -131,7 +137,7 @@ export const DATA = {
 			logoUrl: '/companies/upwork-square.svg',
 			start: 'Jan 2019',
 			end: 'Apr 2019',
-			description: '',
+			description: [''],
 		},
 		{
 			company: 'FYRE Digital',
@@ -142,8 +148,9 @@ export const DATA = {
 			logoUrl: '/companies/fyre.png',
 			start: 'Jan 2018',
 			end: 'Apr 2018',
-			description:
+			description: [
 				'Worked with clients to design, wireframe, prototype, and build websites using various tools like WordPress, HTML, CSS, and more. Managed web design projects from beginning to delivery.',
+			],
 		},
 		{
 			company: 'Novus Talent Acquisition',
@@ -154,8 +161,9 @@ export const DATA = {
 			logoUrl: '/companies/novus.png',
 			start: 'Jan 2019',
 			end: 'Jun 2019',
-			description:
+			description: [
 				'Contracted to design and develop a high-impact landing page that captured the brand identity and value proposition. Responsible for the full creative and technical execution of the project using Figma and Webflow.',
+			],
 		},
 		{
 			company: 'Vanguard-Byte',
@@ -166,8 +174,10 @@ export const DATA = {
 			logoUrl: '/companies/vanguardbyte.png',
 			start: 'Jan 2018',
 			end: 'Aug 2018',
-			description:
-				'Led end-to-end design processes from discovery and wire-framing to prototyping and final UI execution. Conducted research, usability and accessibility testing, and competitive analysis to steer design decisions. Collaborated with product team and stakeholders to align business goals with user needs. Delivered several successful client-facing digital experiences in sectors including tech, e-commerce, and non-profits.',
+			description: [
+				'Led end-to-end design processes from discovery and wire-framing to prototyping and final UI execution. Conducted research, usability and accessibility testing, and competitive analysis to steer design decisions.',
+				'Collaborated with product team and stakeholders to align business goals with user needs. Delivered several successful client-facing digital experiences in sectors including tech, e-commerce, and non-profits.',
+			],
 		},
 		{
 			company: 'Baruch College Campus High School',
@@ -178,8 +188,9 @@ export const DATA = {
 			logoUrl: '/companies/bcchs.png',
 			start: 'Sep 2016',
 			end: 'Jun 2017',
-			description:
+			description: [
 				'Maintaining and troubleshooting issues related to software and hardware. Provided support for installing and fixing printers, projectors, and computer products. Helped students and staff to install and manage devices.',
+			],
 		},
 	],
 	education: [

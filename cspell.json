@@ -1,0 +1,83 @@
+{
+	"version": "0.2",
+	"ignorePaths": [
+		"node_modules",
+		"dist",
+		"out",
+		"build",
+		"logs",
+		"coverage",
+		".git",
+		".husky/_",
+		".vscode/",
+		".env",
+		".env.local",
+		".env.example",
+		"public",
+		"test",
+		"tests",
+		".tsbuildinfo",
+		"generated",
+		".gitignore",
+		".prettierignore",
+		"LICENSE",
+		".next",
+		".vercel"
+	],
+	"languageSettings": [
+		{
+			"languageId": "*",
+			"locale": "en, en-US"
+		}
+	],
+	"dictionaries": [
+		"git",
+		"filetypes",
+		"npm",
+		"cspell-dictionary",
+		"json",
+		"typescript",
+		"css",
+		"shell",
+		"html",
+		"markdown",
+		"yaml",
+		"toml",
+		"vue",
+		"npm",
+		"fonts",
+		"node",
+		"project-dependencies",
+		"project-terms",
+		"lorem-ipsum"
+	],
+	"dictionaryDefinitions": [],
+	"files": ["**/*.{txt,md,json,js,cjs,mjs,ts,jsx,tsx,yml,yaml,toml}"],
+	"words": [
+		"API",
+		"choosealicense",
+		"dribbble",
+		"embla",
+		"rxaviers",
+		"shadcn",
+		"shadcn/ui",
+		"tseslint",
+		"unsplash",
+		"stroustrup",
+		"trivago"
+	],
+	"patterns": [
+		{
+			"name": "hexColor",
+			"pattern": "(?:#)?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6}"
+		}
+	],
+	"ignoreRegExpList": ["hexColor"],
+	"ignoreWords": ["Stephen", "Mwingira", "stephenwm"],
+	"import": [
+		"@cspell/dict-git/cspell-ext.json",
+		"@cspell/dict-filetypes/cspell-ext.json",
+		"@cspell/dict-typescript/cspell-ext.json",
+		"@cspell/dict-lorem-ipsum/cspell-ext.json"
+	]
+}

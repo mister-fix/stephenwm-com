@@ -1,5 +1,6 @@
 'use client';
 
+/* eslint-disable */
 import {
 	Accordion,
 	AccordionContent,

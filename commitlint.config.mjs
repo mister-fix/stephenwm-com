@@ -32,11 +32,13 @@ const Configuration = {
 		'subject-full-stop': [2, 'never', '.'],
 
 		// Body rules
-		'body-max-length': [2, 'always', 100],
+		'body-max-line-length': [2, 'always', 100],
+		'body-max-length': [0, 'always', Infinity],
 		'body-leading-blank': [1, 'always'],
 
 		// Footer rules
-		'footer-max-length': [2, 'always', 100],
+		'footer-max-line-length': [2, 'always', 100],
+		'footer-max-length': [2, 'always', Infinity],
 		'footer-leading-blank': [1, 'always'],
 	},
 

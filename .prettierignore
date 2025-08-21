@@ -148,6 +148,7 @@ plop-templates/*.hbs
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+package.json
 
 # LICENSE
 LICENSE

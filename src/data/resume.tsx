@@ -83,7 +83,7 @@ export const DATA = {
 			logoUrl: '/companies/topfrag.svg',
 			start: 'May 2025',
 			end: 'Present',
-			description: [''],
+			description: [],
 		},
 		{
 			company: 'Develop for Good',
@@ -137,7 +137,7 @@ export const DATA = {
 			logoUrl: '/companies/upwork-square.svg',
 			start: 'Jan 2019',
 			end: 'Apr 2019',
-			description: [''],
+			description: [],
 		},
 		{
 			company: 'FYRE Digital',

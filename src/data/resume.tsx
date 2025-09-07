@@ -260,13 +260,13 @@ export const DATA = {
 					),
 				},
 			],
-			image: '',
-			video:
-				'https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4',
+			image: '/projects/nestwork.png',
+			video: '',
+			// 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4',
 		},
 		{
 			title: 'Next.js Notes App',
-			href: 'nextjs-notes-app-chi.vercel.app',
+			href: 'https://nextjs-notes-app-chi.vercel.app',
 			dates: 'June 2023 - Present',
 			active: true,
 			description:
@@ -301,8 +301,46 @@ export const DATA = {
 					),
 				},
 			],
-			image: '',
-			video: 'https://cdn.magicui.design/bento-grid.mp4',
+			image: '/projects/notes-app.png',
+			video: '',
+			// video: 'https://cdn.magicui.design/bento-grid.mp4',
+		},
+		{
+			title: 'Devhaus - Digital Agency',
+			href: 'https://nextjs-agency-webapp.vercel.app/',
+			dates: 'July 19, 2025 - July 21, 2025',
+			active: true,
+			description: 'Professional landing page for a web development agency',
+			technologies: [
+				'Next.js',
+				'Typescript',
+				'PostgreSQL',
+				'TailwindCSS',
+				'Shadcn UI',
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://https://nextjs-agency-webapp.vercel.app/',
+					icon: <GlobeIcon className="size-3" />,
+				},
+				{
+					type: 'Source',
+					href: 'https://github.com/mister-fix/nextjs-agency-webapp',
+					icon: (
+						<Image
+							src="/github.svg"
+							height={16}
+							width={16}
+							alt="Github icon"
+							className="size-3"
+						/>
+					),
+				},
+			],
+			image: '/projects/devhaus.png',
+			video: '',
+			// video: 'https://cdn.magicui.design/bento-grid.mp4',
 		},
 		// {
 		// 	title: 'llm.report',

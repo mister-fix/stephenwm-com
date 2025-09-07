@@ -1,7 +1,6 @@
 import { HackathonCard } from '@/components/hackathon-card';
 import { BlurFade } from '@/components/magicui/blur-fade';
 import { BlurFadeText } from '@/components/magicui/blur-fade-text';
-import { ProjectCard } from '@/components/project-card';
 import { ResumeCard } from '@/components/resume-card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
@@ -131,7 +130,7 @@ export default function Page() {
 						</div>
 					</BlurFade>
 					<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-						{DATA.projects.map((project, id) => (
+						{/* {DATA.projects.map((project, id) => (
 							<BlurFade
 								key={project.title}
 								delay={BLUR_FADE_DELAY * 12 + id * 0.05}
@@ -148,7 +147,7 @@ export default function Page() {
 									links={project.links}
 								/>
 							</BlurFade>
-						))}
+						))} */}
 					</div>
 				</div>
 			</section>
